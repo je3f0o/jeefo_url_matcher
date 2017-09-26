@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "test" : "./node_modules/mocha/bin/mocha specs/**/*_specs.js",
+    "build": "node build"
+  },
+  "dependencies": {
+    "jeefo_preprocessor": "^0.0.6"
+  },
+  "devDependencies": {
+    "expect": "^21.1.0",
+    "mocha": "^3.5.3"
+  }
+}
